@@ -12,3 +12,7 @@ backend: nincs kiválasztva mi nem tanultunk ezekről egyáltalán
 adatbázis: mysql
 
 (csapat: Rusznyák Dániel Zsolt, Schunk Henrik, Szabó András(PM))
+
+Frontend: Rusznyák Dániel Zsolt
+Database: Schunk Henrik
+Backend: Szabó András
