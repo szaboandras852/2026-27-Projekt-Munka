@@ -6,7 +6,9 @@ arra a napra kerülő edzést, mennyi ideig tart, nagyjából milyen izmokat edz
 és hol.
 
 frontend: nincs kiválasztva mi nem tanultunk ezekről egyáltalán
+
 backend: nincs kiválasztva mi nem tanultunk ezekről egyáltalán
+
 adatbázis: mysql
 
 (csapat: Rusznyák Dániel Zsolt, Schunk Henrik, Szabó András(PM))
