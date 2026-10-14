@@ -9,9 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<TodoContext>(opt =>
-    opt.UseInMemoryDatabase("TodoList"));
-
+//builder.Services.AddDbContext<TodoContext>(opt =>
+//    opt.UseInMemoryDatabase("TodoList"));
+//String connSTring = Environment.GetEnvironmentVariable("DefaultConnection");
+String connSTring = "server=localhost;port=3306;user=root;password=root;database=fittrack;";
+builder.Services.AddDbContext<GymContext>(options => options.UseSqlServer(connSTring));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
